@@ -6,7 +6,7 @@ import os
 
 # Folder
 folder = "frames"
-
+folder="sdndneik"
 # Create the frames folder if it doesn't exist
 frames_dir = os.path.join(os.getcwd(), folder)
 os.makedirs(frames_dir, exist_ok=True)
